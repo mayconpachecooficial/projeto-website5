@@ -4,7 +4,7 @@ import img2 from '../assets/img2.jpg';
 import img3 from '../assets/img3.jpg';
 import img4 from '../assets/img4.jpg';
 
-export default function Main() {
+function Main() {
     return (
         <main className="container">
             <div className="list">
@@ -67,3 +67,5 @@ export default function Main() {
         </main>
     );
 }
+
+export default Main;

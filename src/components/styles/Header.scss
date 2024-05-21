@@ -1,0 +1,24 @@
+header .nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+header .nav-link a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffff;
+    margin-left: 2rem; 
+    margin-right: 2rem; 
+    transition: 0.6s;
+}
+
+header .nav-link a:hover {
+    background-color: #ffff;
+    color: black;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
