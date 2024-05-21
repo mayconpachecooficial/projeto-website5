@@ -1,3 +1,5 @@
+import '../components/styles/Header.sass';
+
 export default function Header() {
     return (
         <header>
