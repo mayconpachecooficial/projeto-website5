@@ -1,6 +1,6 @@
-import '../components/styles/Header.scss';
+import '../styles/Header.scss';
 
-function Header() {
+export default function Header() {
     return (
         <header>
             <nav className='nav-link'>
@@ -12,4 +12,3 @@ function Header() {
     );
 }
 
-export default Header;

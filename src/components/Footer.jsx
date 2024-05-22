@@ -1,6 +1,6 @@
-import '../components/styles/Footer.scss';
+import '../styles/Footer.scss';
 
-function Footer() {
+export default function Footer() {
   return (
     <footer>
       <p>Copyright &copy; 2024. Todos os direitos reservados.</p>
@@ -8,4 +8,3 @@ function Footer() {
   );
 } 
 
-export default Footer;
